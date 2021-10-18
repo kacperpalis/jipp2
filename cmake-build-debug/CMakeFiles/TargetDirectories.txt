@@ -1,0 +1,8 @@
+C:/Users/Kacper/CLionProjects/jipp2/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Kacper/CLionProjects/jipp2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/Kacper/CLionProjects/jipp2/cmake-build-debug/allocation_basics/CMakeFiles/jipp2.dir
+C:/Users/Kacper/CLionProjects/jipp2/cmake-build-debug/allocation_basics/CMakeFiles/edit_cache.dir
+C:/Users/Kacper/CLionProjects/jipp2/cmake-build-debug/allocation_basics/CMakeFiles/rebuild_cache.dir
+C:/Users/Kacper/CLionProjects/jipp2/cmake-build-debug/2/CMakeFiles/lab2.dir
+C:/Users/Kacper/CLionProjects/jipp2/cmake-build-debug/2/CMakeFiles/edit_cache.dir
+C:/Users/Kacper/CLionProjects/jipp2/cmake-build-debug/2/CMakeFiles/rebuild_cache.dir
