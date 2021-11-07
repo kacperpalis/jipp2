@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/jipp2.dir/__/5/5.cpp.obj"
   "CMakeFiles/jipp2.dir/main.cpp.obj"
   "jipp2.exe"
   "jipp2.exe.manifest"

@@ -56,10 +56,10 @@ RM = "D:\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Kacper\CLionProjects\jipp2
+CMAKE_SOURCE_DIR = D:\CLionProjects\jipp2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Kacper\CLionProjects\jipp2\cmake-build-debug
+CMAKE_BINARY_DIR = D:\CLionProjects\jipp2\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,9 +86,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Kacper\CLionProjects\jipp2\cmake-build-debug\CMakeFiles C:\Users\Kacper\CLionProjects\jipp2\cmake-build-debug\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\CLionProjects\jipp2\cmake-build-debug\CMakeFiles D:\CLionProjects\jipp2\cmake-build-debug\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Kacper\CLionProjects\jipp2\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\CLionProjects\jipp2\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -141,6 +141,19 @@ lab2/fast:
 	$(MAKE) $(MAKESILENT) -f 2\CMakeFiles\lab2.dir\build.make 2/CMakeFiles/lab2.dir/build
 .PHONY : lab2/fast
 
+#=============================================================================
+# Target rules for targets named lab5
+
+# Build rule for target.
+lab5: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lab5
+.PHONY : lab5
+
+# fast build rule for target.
+lab5/fast:
+	$(MAKE) $(MAKESILENT) -f 5\CMakeFiles\lab5.dir\build.make 5/CMakeFiles/lab5.dir/build
+.PHONY : lab5/fast
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -151,6 +164,7 @@ help:
 	@echo ... rebuild_cache
 	@echo ... jipp2
 	@echo ... lab2
+	@echo ... lab5
 .PHONY : help
 
 

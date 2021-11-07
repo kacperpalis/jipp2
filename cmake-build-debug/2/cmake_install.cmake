@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/Kacper/CLionProjects/jipp2/2
+# Install script for directory: D:/CLionProjects/jipp2/2
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

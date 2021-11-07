@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_GENERATOR "MinGW Makefiles")
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
   "../2/CMakeLists.txt"
+  "../5/CMakeLists.txt"
   "../CMakeLists.txt"
   "../allocation_basics/CMakeLists.txt"
   "CMakeFiles/3.20.2/CMakeCCompiler.cmake"
@@ -51,10 +52,12 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   "allocation_basics/CMakeFiles/CMakeDirectoryInformation.cmake"
   "2/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "5/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "allocation_basics/CMakeFiles/jipp2.dir/DependInfo.cmake"
   "2/CMakeFiles/lab2.dir/DependInfo.cmake"
+  "5/CMakeFiles/lab5.dir/DependInfo.cmake"
   )

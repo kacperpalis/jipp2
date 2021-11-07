@@ -52,10 +52,10 @@ RM = "D:\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Kacper\CLionProjects\jipp2
+CMAKE_SOURCE_DIR = D:\CLionProjects\jipp2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Kacper\CLionProjects\jipp2\cmake-build-debug
+CMAKE_BINARY_DIR = D:\CLionProjects\jipp2\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include allocation_basics/CMakeFiles/jipp2.dir/depend.make
@@ -67,41 +67,56 @@ include allocation_basics/CMakeFiles/jipp2.dir/flags.make
 
 allocation_basics/CMakeFiles/jipp2.dir/main.cpp.obj: allocation_basics/CMakeFiles/jipp2.dir/flags.make
 allocation_basics/CMakeFiles/jipp2.dir/main.cpp.obj: ../allocation_basics/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Kacper\CLionProjects\jipp2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object allocation_basics/CMakeFiles/jipp2.dir/main.cpp.obj"
-	cd /d C:\Users\Kacper\CLionProjects\jipp2\cmake-build-debug\allocation_basics && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\jipp2.dir\main.cpp.obj -c C:\Users\Kacper\CLionProjects\jipp2\allocation_basics\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CLionProjects\jipp2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object allocation_basics/CMakeFiles/jipp2.dir/main.cpp.obj"
+	cd /d D:\CLionProjects\jipp2\cmake-build-debug\allocation_basics && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\jipp2.dir\main.cpp.obj -c D:\CLionProjects\jipp2\allocation_basics\main.cpp
 
 allocation_basics/CMakeFiles/jipp2.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/jipp2.dir/main.cpp.i"
-	cd /d C:\Users\Kacper\CLionProjects\jipp2\cmake-build-debug\allocation_basics && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Kacper\CLionProjects\jipp2\allocation_basics\main.cpp > CMakeFiles\jipp2.dir\main.cpp.i
+	cd /d D:\CLionProjects\jipp2\cmake-build-debug\allocation_basics && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\CLionProjects\jipp2\allocation_basics\main.cpp > CMakeFiles\jipp2.dir\main.cpp.i
 
 allocation_basics/CMakeFiles/jipp2.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/jipp2.dir/main.cpp.s"
-	cd /d C:\Users\Kacper\CLionProjects\jipp2\cmake-build-debug\allocation_basics && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Kacper\CLionProjects\jipp2\allocation_basics\main.cpp -o CMakeFiles\jipp2.dir\main.cpp.s
+	cd /d D:\CLionProjects\jipp2\cmake-build-debug\allocation_basics && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\CLionProjects\jipp2\allocation_basics\main.cpp -o CMakeFiles\jipp2.dir\main.cpp.s
+
+allocation_basics/CMakeFiles/jipp2.dir/__/5/5.cpp.obj: allocation_basics/CMakeFiles/jipp2.dir/flags.make
+allocation_basics/CMakeFiles/jipp2.dir/__/5/5.cpp.obj: ../5/5.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CLionProjects\jipp2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object allocation_basics/CMakeFiles/jipp2.dir/__/5/5.cpp.obj"
+	cd /d D:\CLionProjects\jipp2\cmake-build-debug\allocation_basics && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\jipp2.dir\__\5\5.cpp.obj -c D:\CLionProjects\jipp2\5\5.cpp
+
+allocation_basics/CMakeFiles/jipp2.dir/__/5/5.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/jipp2.dir/__/5/5.cpp.i"
+	cd /d D:\CLionProjects\jipp2\cmake-build-debug\allocation_basics && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\CLionProjects\jipp2\5\5.cpp > CMakeFiles\jipp2.dir\__\5\5.cpp.i
+
+allocation_basics/CMakeFiles/jipp2.dir/__/5/5.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/jipp2.dir/__/5/5.cpp.s"
+	cd /d D:\CLionProjects\jipp2\cmake-build-debug\allocation_basics && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\CLionProjects\jipp2\5\5.cpp -o CMakeFiles\jipp2.dir\__\5\5.cpp.s
 
 # Object files for target jipp2
 jipp2_OBJECTS = \
-"CMakeFiles/jipp2.dir/main.cpp.obj"
+"CMakeFiles/jipp2.dir/main.cpp.obj" \
+"CMakeFiles/jipp2.dir/__/5/5.cpp.obj"
 
 # External object files for target jipp2
 jipp2_EXTERNAL_OBJECTS =
 
 allocation_basics/jipp2.exe: allocation_basics/CMakeFiles/jipp2.dir/main.cpp.obj
+allocation_basics/jipp2.exe: allocation_basics/CMakeFiles/jipp2.dir/__/5/5.cpp.obj
 allocation_basics/jipp2.exe: allocation_basics/CMakeFiles/jipp2.dir/build.make
 allocation_basics/jipp2.exe: allocation_basics/CMakeFiles/jipp2.dir/linklibs.rsp
 allocation_basics/jipp2.exe: allocation_basics/CMakeFiles/jipp2.dir/objects1.rsp
 allocation_basics/jipp2.exe: allocation_basics/CMakeFiles/jipp2.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Kacper\CLionProjects\jipp2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable jipp2.exe"
-	cd /d C:\Users\Kacper\CLionProjects\jipp2\cmake-build-debug\allocation_basics && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\jipp2.dir\link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\CLionProjects\jipp2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable jipp2.exe"
+	cd /d D:\CLionProjects\jipp2\cmake-build-debug\allocation_basics && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\jipp2.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 allocation_basics/CMakeFiles/jipp2.dir/build: allocation_basics/jipp2.exe
 .PHONY : allocation_basics/CMakeFiles/jipp2.dir/build
 
 allocation_basics/CMakeFiles/jipp2.dir/clean:
-	cd /d C:\Users\Kacper\CLionProjects\jipp2\cmake-build-debug\allocation_basics && $(CMAKE_COMMAND) -P CMakeFiles\jipp2.dir\cmake_clean.cmake
+	cd /d D:\CLionProjects\jipp2\cmake-build-debug\allocation_basics && $(CMAKE_COMMAND) -P CMakeFiles\jipp2.dir\cmake_clean.cmake
 .PHONY : allocation_basics/CMakeFiles/jipp2.dir/clean
 
 allocation_basics/CMakeFiles/jipp2.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\Kacper\CLionProjects\jipp2 C:\Users\Kacper\CLionProjects\jipp2\allocation_basics C:\Users\Kacper\CLionProjects\jipp2\cmake-build-debug C:\Users\Kacper\CLionProjects\jipp2\cmake-build-debug\allocation_basics C:\Users\Kacper\CLionProjects\jipp2\cmake-build-debug\allocation_basics\CMakeFiles\jipp2.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\CLionProjects\jipp2 D:\CLionProjects\jipp2\allocation_basics D:\CLionProjects\jipp2\cmake-build-debug D:\CLionProjects\jipp2\cmake-build-debug\allocation_basics D:\CLionProjects\jipp2\cmake-build-debug\allocation_basics\CMakeFiles\jipp2.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : allocation_basics/CMakeFiles/jipp2.dir/depend
 

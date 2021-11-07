@@ -5,21 +5,21 @@
 		<Option title="jipp2"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\allocation_basics\;CMake Files\2\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\allocation_basics\;CMake Files\2\;CMake Files\5\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="C:/Users/Kacper/CLionProjects/jipp2/cmake-build-debug/allocation_basics"/>
+				<Option working_dir="D:/CLionProjects/jipp2/cmake-build-debug/allocation_basics"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Kacper/CLionProjects/jipp2/cmake-build-debug/allocation_basics/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Kacper/CLionProjects/jipp2/cmake-build-debug/allocation_basics/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Kacper/CLionProjects/jipp2/cmake-build-debug/allocation_basics/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Kacper/CLionProjects/jipp2/cmake-build-debug/allocation_basics/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/CLionProjects/jipp2/cmake-build-debug/allocation_basics/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/CLionProjects/jipp2/cmake-build-debug/allocation_basics/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/CLionProjects/jipp2/cmake-build-debug/allocation_basics/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/CLionProjects/jipp2/cmake-build-debug/allocation_basics/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="jipp2">
-				<Option output="C:/Users/Kacper/CLionProjects/jipp2/cmake-build-debug/allocation_basics/jipp2.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/Kacper/CLionProjects/jipp2/cmake-build-debug/allocation_basics"/>
+				<Option output="D:/CLionProjects/jipp2/cmake-build-debug/allocation_basics/jipp2.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/CLionProjects/jipp2/cmake-build-debug/allocation_basics"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -32,15 +32,15 @@
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include-fixed"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Kacper/CLionProjects/jipp2/cmake-build-debug/allocation_basics/Makefile&quot;  VERBOSE=1 jipp2"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Kacper/CLionProjects/jipp2/cmake-build-debug/allocation_basics/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Kacper/CLionProjects/jipp2/cmake-build-debug/allocation_basics/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Kacper/CLionProjects/jipp2/cmake-build-debug/allocation_basics/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/CLionProjects/jipp2/cmake-build-debug/allocation_basics/Makefile&quot;  VERBOSE=1 jipp2"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/CLionProjects/jipp2/cmake-build-debug/allocation_basics/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/CLionProjects/jipp2/cmake-build-debug/allocation_basics/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/CLionProjects/jipp2/cmake-build-debug/allocation_basics/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="jipp2/fast">
-				<Option output="C:/Users/Kacper/CLionProjects/jipp2/cmake-build-debug/allocation_basics/jipp2.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/Kacper/CLionProjects/jipp2/cmake-build-debug/allocation_basics"/>
+				<Option output="D:/CLionProjects/jipp2/cmake-build-debug/allocation_basics/jipp2.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/CLionProjects/jipp2/cmake-build-debug/allocation_basics"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -53,24 +53,30 @@
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include-fixed"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Kacper/CLionProjects/jipp2/cmake-build-debug/allocation_basics/Makefile&quot;  VERBOSE=1 jipp2/fast"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Kacper/CLionProjects/jipp2/cmake-build-debug/allocation_basics/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Kacper/CLionProjects/jipp2/cmake-build-debug/allocation_basics/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Kacper/CLionProjects/jipp2/cmake-build-debug/allocation_basics/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/CLionProjects/jipp2/cmake-build-debug/allocation_basics/Makefile&quot;  VERBOSE=1 jipp2/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/CLionProjects/jipp2/cmake-build-debug/allocation_basics/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/CLionProjects/jipp2/cmake-build-debug/allocation_basics/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/CLionProjects/jipp2/cmake-build-debug/allocation_basics/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/Kacper/CLionProjects/jipp2/allocation_basics/main.cpp">
+		<Unit filename="D:/CLionProjects/jipp2/5/5.cpp">
 			<Option target="jipp2"/>
 		</Unit>
-		<Unit filename="C:/Users/Kacper/CLionProjects/jipp2/CMakeLists.txt">
+		<Unit filename="D:/CLionProjects/jipp2/allocation_basics/main.cpp">
+			<Option target="jipp2"/>
+		</Unit>
+		<Unit filename="D:/CLionProjects/jipp2/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="C:/Users/Kacper/CLionProjects/jipp2/allocation_basics/CMakeLists.txt">
+		<Unit filename="D:/CLionProjects/jipp2/allocation_basics/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\allocation_basics\"/>
 		</Unit>
-		<Unit filename="C:/Users/Kacper/CLionProjects/jipp2/2/CMakeLists.txt">
+		<Unit filename="D:/CLionProjects/jipp2/2/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\2\"/>
+		</Unit>
+		<Unit filename="D:/CLionProjects/jipp2/5/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\5\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>

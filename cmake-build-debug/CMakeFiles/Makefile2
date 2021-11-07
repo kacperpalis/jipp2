@@ -53,10 +53,10 @@ RM = "D:\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Kacper\CLionProjects\jipp2
+CMAKE_SOURCE_DIR = D:\CLionProjects\jipp2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Kacper\CLionProjects\jipp2\cmake-build-debug
+CMAKE_BINARY_DIR = D:\CLionProjects\jipp2\cmake-build-debug
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -64,16 +64,19 @@ CMAKE_BINARY_DIR = C:\Users\Kacper\CLionProjects\jipp2\cmake-build-debug
 # The main recursive "all" target.
 all: allocation_basics/all
 all: 2/all
+all: 5/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
 preinstall: allocation_basics/preinstall
 preinstall: 2/preinstall
+preinstall: 5/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
 clean: allocation_basics/clean
 clean: 2/clean
+clean: 5/clean
 .PHONY : clean
 
 #=============================================================================
@@ -90,6 +93,21 @@ clean: 2/clean
 # Recursive "clean" directory target.
 2/clean: 2/CMakeFiles/lab2.dir/clean
 .PHONY : 2/clean
+
+#=============================================================================
+# Directory level rules for directory 5
+
+# Recursive "all" directory target.
+5/all: 5/CMakeFiles/lab5.dir/all
+.PHONY : 5/all
+
+# Recursive "preinstall" directory target.
+5/preinstall:
+.PHONY : 5/preinstall
+
+# Recursive "clean" directory target.
+5/clean: 5/CMakeFiles/lab5.dir/clean
+.PHONY : 5/clean
 
 #=============================================================================
 # Directory level rules for directory allocation_basics
@@ -113,14 +131,14 @@ allocation_basics/clean: allocation_basics/CMakeFiles/jipp2.dir/clean
 allocation_basics/CMakeFiles/jipp2.dir/all:
 	$(MAKE) $(MAKESILENT) -f allocation_basics\CMakeFiles\jipp2.dir\build.make allocation_basics/CMakeFiles/jipp2.dir/depend
 	$(MAKE) $(MAKESILENT) -f allocation_basics\CMakeFiles\jipp2.dir\build.make allocation_basics/CMakeFiles/jipp2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Kacper\CLionProjects\jipp2\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target jipp2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\CLionProjects\jipp2\cmake-build-debug\CMakeFiles --progress-num=1,2,3 "Built target jipp2"
 .PHONY : allocation_basics/CMakeFiles/jipp2.dir/all
 
 # Build rule for subdir invocation for target.
 allocation_basics/CMakeFiles/jipp2.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Kacper\CLionProjects\jipp2\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\CLionProjects\jipp2\cmake-build-debug\CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 allocation_basics/CMakeFiles/jipp2.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Kacper\CLionProjects\jipp2\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\CLionProjects\jipp2\cmake-build-debug\CMakeFiles 0
 .PHONY : allocation_basics/CMakeFiles/jipp2.dir/rule
 
 # Convenience name for target.
@@ -139,14 +157,14 @@ allocation_basics/CMakeFiles/jipp2.dir/clean:
 2/CMakeFiles/lab2.dir/all:
 	$(MAKE) $(MAKESILENT) -f 2\CMakeFiles\lab2.dir\build.make 2/CMakeFiles/lab2.dir/depend
 	$(MAKE) $(MAKESILENT) -f 2\CMakeFiles\lab2.dir\build.make 2/CMakeFiles/lab2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Kacper\CLionProjects\jipp2\cmake-build-debug\CMakeFiles --progress-num=3,4 "Built target lab2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\CLionProjects\jipp2\cmake-build-debug\CMakeFiles --progress-num=4,5 "Built target lab2"
 .PHONY : 2/CMakeFiles/lab2.dir/all
 
 # Build rule for subdir invocation for target.
 2/CMakeFiles/lab2.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Kacper\CLionProjects\jipp2\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\CLionProjects\jipp2\cmake-build-debug\CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 2/CMakeFiles/lab2.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Kacper\CLionProjects\jipp2\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\CLionProjects\jipp2\cmake-build-debug\CMakeFiles 0
 .PHONY : 2/CMakeFiles/lab2.dir/rule
 
 # Convenience name for target.
@@ -157,6 +175,32 @@ lab2: 2/CMakeFiles/lab2.dir/rule
 2/CMakeFiles/lab2.dir/clean:
 	$(MAKE) $(MAKESILENT) -f 2\CMakeFiles\lab2.dir\build.make 2/CMakeFiles/lab2.dir/clean
 .PHONY : 2/CMakeFiles/lab2.dir/clean
+
+#=============================================================================
+# Target rules for target 5/CMakeFiles/lab5.dir
+
+# All Build rule for target.
+5/CMakeFiles/lab5.dir/all:
+	$(MAKE) $(MAKESILENT) -f 5\CMakeFiles\lab5.dir\build.make 5/CMakeFiles/lab5.dir/depend
+	$(MAKE) $(MAKESILENT) -f 5\CMakeFiles\lab5.dir\build.make 5/CMakeFiles/lab5.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\CLionProjects\jipp2\cmake-build-debug\CMakeFiles --progress-num=6,7 "Built target lab5"
+.PHONY : 5/CMakeFiles/lab5.dir/all
+
+# Build rule for subdir invocation for target.
+5/CMakeFiles/lab5.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\CLionProjects\jipp2\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 5/CMakeFiles/lab5.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\CLionProjects\jipp2\cmake-build-debug\CMakeFiles 0
+.PHONY : 5/CMakeFiles/lab5.dir/rule
+
+# Convenience name for target.
+lab5: 5/CMakeFiles/lab5.dir/rule
+.PHONY : lab5
+
+# clean rule for target.
+5/CMakeFiles/lab5.dir/clean:
+	$(MAKE) $(MAKESILENT) -f 5\CMakeFiles\lab5.dir\build.make 5/CMakeFiles/lab5.dir/clean
+.PHONY : 5/CMakeFiles/lab5.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

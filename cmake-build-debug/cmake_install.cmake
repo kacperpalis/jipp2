@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/Kacper/CLionProjects/jipp2
+# Install script for directory: D:/CLionProjects/jipp2
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,12 +39,17 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/Kacper/CLionProjects/jipp2/cmake-build-debug/allocation_basics/cmake_install.cmake")
+  include("D:/CLionProjects/jipp2/cmake-build-debug/allocation_basics/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/Kacper/CLionProjects/jipp2/cmake-build-debug/2/cmake_install.cmake")
+  include("D:/CLionProjects/jipp2/cmake-build-debug/2/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("D:/CLionProjects/jipp2/cmake-build-debug/5/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -55,5 +60,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/Kacper/CLionProjects/jipp2/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "D:/CLionProjects/jipp2/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
